@@ -5,3 +5,8 @@
 // 456 -> 6
 // 782 -> 2
 // 918 -> 8
+
+Console.Write("Введите число : ");
+int num = System.Convert.ToInt32 (Console.ReadLine());
+ int numA = num%10;
+ Console.WriteLine ($"Последния цифра этого числа: {numA}");
