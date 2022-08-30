@@ -1,4 +1,4 @@
-// помощь в решении задачa 47
+﻿// помощь в решении задачa 47
 
 double[,] CreateMatrixRndDouble(int row, int col, int min, int max)
 {
@@ -27,7 +27,7 @@ void PrintMatrix(double[,] matrix)
             // else Console.Write($"{matrix[i,j], 4}");
 
             Console.Write(j < matrix.GetLength(1) - 1 ? //можно вместо if,else
-            $"{matrix[i, j],6} ;" : $"{matrix[i, j],6}"); // , 4}"); отступы на консоле
+            $"{matrix[i, j],6} ;" : $"{matrix[i, j],6}"); // , 6}"); отступы на консоле
         }
         Console.WriteLine("]");
     }
