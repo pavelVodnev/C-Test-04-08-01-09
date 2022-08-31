@@ -1,4 +1,4 @@
-﻿// string[,] table = new string[2, 5];
+// string[,] table = new string[2, 5];
 // table[0,0] table[0,1] table[0,2] table[0,3] table[0,4] - первая цифра столб,вторая строка
 // table[0,0] table[1,1] table[1,2] table[1,3] table[1,4] - у нас массив до 5
 
@@ -184,12 +184,12 @@
 //     Console.WriteLine(Fibonacci(i));
 // }
 
-double Fibonacci(int n)// doouble возрощаюет
-{
-    if (n == 1 || n == 2) return 1;
-    else return Fibonacci(n - 1) + Fibonacci(n - 2);
-}
-for (int i = 1; i < 40; i++)
-{
-    Console.WriteLine($"f({i}) = {Fibonacci(i)}");
-}
+// double Fibonacci(int n)// doouble возрощаюет
+// {
+//     if (n == 1 || n == 2) return 1;
+//     else return Fibonacci(n - 1) + Fibonacci(n - 2);
+// }
+// for (int i = 1; i < 40; i++)
+// {
+//     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
+// }
